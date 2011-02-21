@@ -1,0 +1,5 @@
+PSP_DebugOpt/main.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/main.cpp"
+PSP_DebugOpt/main.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameEngine.h"
+PSP_DebugOpt/main.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.h"
+PSP_DebugOpt/main.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.h"
+PSP_DebugOpt/main.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.h"

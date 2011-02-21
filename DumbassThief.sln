@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DumbassThief", "DumbassThief\DumbassThief.vcproj", "{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		PSP Debug Opt|Win32 = PSP Debug Opt|Win32
+		PSP Debug|Win32 = PSP Debug|Win32
+		PSP Release|Win32 = PSP Release|Win32
+		PSPEmulator|Win32 = PSPEmulator|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSP Debug Opt|Win32.ActiveCfg = PSP Debug Opt|Win32
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSP Debug Opt|Win32.Build.0 = PSP Debug Opt|Win32
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSP Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSP Debug|Win32.Build.0 = PSP Debug|Win32
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSP Release|Win32.ActiveCfg = PSP Release|Win32
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSP Release|Win32.Build.0 = PSP Release|Win32
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSPEmulator|Win32.ActiveCfg = PSPEmulator|Win32
+		{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}.PSPEmulator|Win32.Build.0 = PSPEmulator|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+<!DOCTYPE Configure>
+<settings>
+ <general DisableMemStick="false" MemCardPath="" VsyncLimiter="false" SoundBuffer="0" AutoRun="false" EnableDecryptor="false" EnableShaders="false" LastOpenUMD="" HackDisableAudFunc="false" LogWindowShow="false" LastOpenFile="C:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/PSP_DebugOpt/DumbassThief.prx" MuteSound="false" AlwaysOnTop="false"/>
+ <controllers/>
+ <logging/>
+</settings>
