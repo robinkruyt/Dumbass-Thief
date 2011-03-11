@@ -68,6 +68,7 @@ OBJS=\
 	"PSP_Debug/GameState.obj"\
 	"PSP_Debug/main.obj"\
 	"PSP_Debug/MenuState.obj"\
+	"PSP_Debug/Plane.obj"\
 
 CST_OBJS=\
 
@@ -96,6 +97,10 @@ COMPILE: $(OBJS)
 "PSP_Debug/MenuState.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.cpp" -o $@
+
+"PSP_Debug/Plane.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp" -o $@
 
 LINK: "PSP_Debug/tempprx.obj"
 

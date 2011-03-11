@@ -257,7 +257,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Starting Emulator"
-				CommandLine="&quot;C:\Users\Robin\Desktop\psp\pcsp v0.5.2\pcsp.exe&quot;"
+				CommandLine="&quot;C:\Users\Robin\Desktop\psp\pcsp v0.5.2\pcsp.exe&quot;&#x0D;&#x0A;"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -350,6 +350,10 @@
 				RelativePath=".\MenuState.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\Plane.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -369,6 +373,18 @@
 			</File>
 			<File
 				RelativePath=".\MenuState.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Plane.h"
+				>
+			</File>
+			<File
+				RelativePath=".\tex_pf8888.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Thief.h"
 				>
 			</File>
 		</Filter>

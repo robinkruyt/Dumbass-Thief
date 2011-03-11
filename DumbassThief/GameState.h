@@ -1,7 +1,9 @@
-#include "GameGroup.h"
-
 #ifndef GAMESTATE_H_
 #define GAMESTATE_H_
+
+
+#include "GameGroup.h"
+
 
 class GameState {
 public:

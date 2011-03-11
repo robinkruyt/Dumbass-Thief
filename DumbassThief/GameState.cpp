@@ -7,5 +7,5 @@ GameState::GameState() {}
 GameState::~GameState() {}
 
 
-void GameState::update() { printf("Dikke test"); }
+void GameState::update() { }
 void GameState::draw() {}

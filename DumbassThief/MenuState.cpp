@@ -3,9 +3,14 @@
 #include "MenuState.h"
 
 
-MenuState::MenuState(void){ }
+MenuState::MenuState(void){
+}
+
 MenuState::~MenuState(void){ }
 
-void MenuState::update() { printf("MenuUpdate"); }
-void MenuState::draw() {} 
+void MenuState::update() {}
+void MenuState::draw() {
+	//Draw functies aanroepen
+	speler.draw();
+} 
 

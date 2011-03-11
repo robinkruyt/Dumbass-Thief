@@ -1,8 +1,18 @@
+#ifndef GAMEENGINE_H_
+#define GAMEENGINE_H_
+
 #include "GameState.h"
 #include "MenuState.h"
 
-#ifndef GAMEENGINE_H_
-#define GAMEENGINE_H_
+#include <psptypes.h>
+#include <kernel.h>
+#include <displaysvc.h>
+#include <ctrlsvc.h>
+#include <libgu.h>
+#include <libgum.h>
+
+
+
 
 class GameEngine {
 	static GameEngine *s_instance;
@@ -13,12 +23,15 @@ class GameEngine {
 public:
 	// Vars
 	
+	ScePspFVector3	cameraPosition;
+
 
 	// Functions
 	GameState getGamestate();
 	void setGamestate(GameState &gm);
-	
+	void init();
 	void update();
+	void draw();
 	//void setGamestate(MenuState gs);
 	
 	//Besta ik al? dan ben ik mezelf. Anders maken we een nieuwe.

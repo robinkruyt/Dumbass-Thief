@@ -17,16 +17,16 @@ MenuState menuState;
 GameEngine *GameEngine::s_instance = 0;
 
 void init() {
+	GameEngine::instance()->init();
 	GameEngine::instance()->setGamestate(menuState);
 }
 
 void update(void) {
-	//GameEngine::instance()->getGamestate().update();
 	GameEngine::instance()->update();
 }
 
 void draw(void) {
-	//GameEngine::instance()->getGamestate().draw();
+	GameEngine::instance()->draw();
 }
 
 int main(void) {
@@ -34,7 +34,7 @@ int main(void) {
 	
 	while (1) {
 		update();
-		//draw();
+		draw();
 		sceDisplayWaitVblankStart();
 		sceGuSwapBuffers();
 	}
