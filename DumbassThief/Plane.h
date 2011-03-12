@@ -1,8 +1,6 @@
 #ifndef PLANE_H_
 #define PLANE_H_
 
-#include "Thief.h"
-
 #include <psptypes.h>
 #include <kernel.h>
 #include <displaysvc.h>
@@ -10,16 +8,14 @@
 #include <libgu.h>
 #include <libgum.h>
 
-#include "Thief.h"
-
 class Plane
 {
 public:
 	Plane(void);
 	~Plane(void);
 	
-	void update();
-	void draw();
+	virtual void update();
+	virtual void draw();
 
 private:
 	int width; // Width of plane

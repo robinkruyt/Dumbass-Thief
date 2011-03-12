@@ -22,7 +22,6 @@ class GameEngine {
 
 public:
 	// Vars
-	
 	ScePspFVector3	cameraPosition;
 
 

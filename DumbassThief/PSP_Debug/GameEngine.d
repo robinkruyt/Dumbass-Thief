@@ -3,5 +3,6 @@ PSP_Debug/GameEngine.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/
 PSP_Debug/GameEngine.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.h"
 PSP_Debug/GameEngine.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.h"
 PSP_Debug/GameEngine.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.h"
+PSP_Debug/GameEngine.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.h"
 PSP_Debug/GameEngine.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.h"
 PSP_Debug/GameEngine.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Thief.h"

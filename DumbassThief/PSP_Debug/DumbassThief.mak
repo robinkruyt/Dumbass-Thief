@@ -69,6 +69,7 @@ OBJS=\
 	"PSP_Debug/main.obj"\
 	"PSP_Debug/MenuState.obj"\
 	"PSP_Debug/Plane.obj"\
+	"PSP_Debug/Character.obj"\
 
 CST_OBJS=\
 
@@ -101,6 +102,10 @@ COMPILE: $(OBJS)
 "PSP_Debug/Plane.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp" -o $@
+
+"PSP_Debug/Character.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp" -o $@
 
 LINK: "PSP_Debug/tempprx.obj"
 

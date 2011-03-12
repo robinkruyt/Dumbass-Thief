@@ -1,5 +1,4 @@
 #include "Plane.h"
-#include <stdio.h>
 
 
 Plane::Plane()
@@ -17,20 +16,17 @@ Plane::Plane()
 	
 
 	position.x= 0.0f;
-	position.y= 2.0f;
+	position.y= 0.0f;
 	position.z= 0.0f;
 	
 }
 
-Plane::~Plane()
-{
-}
+Plane::~Plane() {}
 
-
+void Plane::update() {}
 void Plane::draw() {
-	//Set Textures MOET NAAR THIEF
+	//Set Textures
 	sceGuTexMode(SCEGU_PF8888, 0, SCEGU_SINGLE_CLUT, SCEGU_TEXBUF_NORMAL);
-	sceGuTexImage(0, 128, 128, 128, pix_Thief);
 
 	sceGuEnable(SCEGU_TEXTURE);
 	sceGuTexFunc(SCEGU_TEX_MODULATE, SCEGU_RGBA);
