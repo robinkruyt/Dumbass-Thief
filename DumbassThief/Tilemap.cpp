@@ -1,6 +1,7 @@
 #include "Tilemap.h"
-
+#include "wallTile.h"
 #include "floorTile.h"
+
 //#include "Plane.h"
 
 Tilemap::Tilemap()
@@ -27,6 +28,9 @@ void Tilemap::draw() {
 	{
 		if(tiles[i]->type == 1) {
 			sceGuTexImage(0, 128, 128, 128, pix_floorTile);
+			tiles[i]->draw();
+		}else if(tiles[i]->type == 2) {
+			sceGuTexImage(0, 128, 128, 128, pix_wallTile);
 			tiles[i]->draw();
 		}
 	}

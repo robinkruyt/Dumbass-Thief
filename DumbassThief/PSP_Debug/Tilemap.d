@@ -4,4 +4,5 @@ PSP_Debug/Tilemap.obj: "C:/Program Files/SN Systems/PSP/bin/.././include/_ansi.h
 PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.h"
 PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.h"
 PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Level1.h"
+PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/wallTile.h"
 PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/floorTile.h"
