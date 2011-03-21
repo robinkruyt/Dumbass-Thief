@@ -12,6 +12,10 @@ public:
 	void draw();
 	void update();
 
+private:
+	float topspeed;
+	float accl;
+
 };
 
 #endif

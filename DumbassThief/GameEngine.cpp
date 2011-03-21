@@ -148,8 +148,8 @@ void GameEngine::draw() {
 
 	sceGuFinish();
 	sceGuSync(SCEGU_SYNC_FINISH, SCEGU_SYNC_WAIT);
-	sceDisplayWaitVblankStart();
-	sceGuSwapBuffers();
+	/*sceDisplayWaitVblankStart();
+	sceGuSwapBuffers();*/
 
 	
 }

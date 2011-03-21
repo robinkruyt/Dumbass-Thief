@@ -331,6 +331,10 @@
 			Filter="cpp;c;cxx;cc;s;asm"
 			>
 			<File
+				RelativePath=".\Character.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\GameEngine.cpp"
 				>
 			</File>
@@ -354,11 +358,23 @@
 				RelativePath=".\Plane.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\Tile.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Tilemap.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
 			Filter="h;hpp"
 			>
+			<File
+				RelativePath=".\Character.h"
+				>
+			</File>
 			<File
 				RelativePath=".\GameEngine.h"
 				>
@@ -384,9 +400,29 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Thief.h"
+				RelativePath=".\Tile.h"
 				>
 			</File>
+			<File
+				RelativePath=".\Tilemap.h"
+				>
+			</File>
+			<Filter
+				Name="Textures"
+				>
+				<File
+					RelativePath=".\Thief.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Levels"
+				>
+				<File
+					RelativePath=".\Level1.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<File
 			RelativePath=".\PrxPreloads.txt"

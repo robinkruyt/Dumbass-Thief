@@ -9,12 +9,14 @@
 #include <libgu.h>
 #include <libgum.h>
 
-//#include "tex_pf8888.h"
-//#include "Thief.h"
 #include "Character.h"
+#include "Tilemap.h"
 
 class MenuState : public GameState {
 public:
+	
+	Tilemap tilemap;
+
 	MenuState(void);
 	virtual ~MenuState(void);
 	

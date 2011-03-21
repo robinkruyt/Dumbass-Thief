@@ -63,13 +63,15 @@ LD_FLAGS=\
 	-g\
 
 OBJS=\
+	"PSP_Debug/Character.obj"\
 	"PSP_Debug/GameEngine.obj"\
 	"PSP_Debug/GameGroup.obj"\
 	"PSP_Debug/GameState.obj"\
 	"PSP_Debug/main.obj"\
 	"PSP_Debug/MenuState.obj"\
 	"PSP_Debug/Plane.obj"\
-	"PSP_Debug/Character.obj"\
+	"PSP_Debug/Tile.obj"\
+	"PSP_Debug/Tilemap.obj"\
 
 CST_OBJS=\
 
@@ -78,6 +80,10 @@ CST_OUTS=\
 CUSTOM: $(CST_OUTS) $(CST_OBJS)
 
 COMPILE: $(OBJS)
+
+"PSP_Debug/Character.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp" -o $@
 
 "PSP_Debug/GameEngine.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameEngine.cpp"
@@ -103,9 +109,13 @@ COMPILE: $(OBJS)
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp" -o $@
 
-"PSP_Debug/Character.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp" -o $@
+"PSP_Debug/Tile.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.cpp" -o $@
+
+"PSP_Debug/Tilemap.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.cpp" -o $@
 
 LINK: "PSP_Debug/tempprx.obj"
 

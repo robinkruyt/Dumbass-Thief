@@ -15,15 +15,24 @@ Plane::Plane()
 	} 
 	
 
-	position.x= 0.0f;
-	position.y= 0.0f;
-	position.z= 0.0f;
+	position.x = 0.0f;
+	position.y = 0.0f;
+	position.z = 0.0f;
+
+	speed.x = 0.0f;
+	speed.y = 0.0f;
+	speed.z = 0.0f;
 	
 }
 
 Plane::~Plane() {}
 
-void Plane::update() {}
+void Plane::update() {
+	drawPosition.x = position.x*2;
+	drawPosition.y = -position.y*2;
+	drawPosition.z = position.z*2;
+}
+
 void Plane::draw() {
 	//Set Textures
 	sceGuTexMode(SCEGU_PF8888, 0, SCEGU_SINGLE_CLUT, SCEGU_TEXBUF_NORMAL);
@@ -35,7 +44,7 @@ void Plane::draw() {
 	sceGuTexFilter(SCEGU_LINEAR, SCEGU_LINEAR);
 
 	sceGumPushMatrix();
-	sceGumTranslate(&position);
+	sceGumTranslate(&drawPosition);
 
 	sceGuColor(0xffffffff);
 	sceGumDrawArray(SCEGU_PRIM_TRIANGLE_STRIP, SCEGU_TEXTURE_FLOAT|SCEGU_NORMAL_FLOAT|SCEGU_VERTEX_FLOAT, 4, 0, model);

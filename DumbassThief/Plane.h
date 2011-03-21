@@ -17,12 +17,16 @@ public:
 	virtual void update();
 	virtual void draw();
 
-private:
+	ScePspFVector3 position; // Position of plane
+	ScePspFVector3 speed; // Speed of plane
+
+protected:
 	int width; // Width of plane
 	int height; // Height of plane
 
-	ScePspFVector3 position; // Position of plane
 	float model[32]; // Shape
+
+	ScePspFVector3 drawPosition; // Visible position of plane
 };
 
 #endif
