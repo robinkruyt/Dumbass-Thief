@@ -347,6 +347,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\garbageLevel.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\main.cpp"
 				>
 			</File>
@@ -356,6 +360,10 @@
 			</File>
 			<File
 				RelativePath=".\Plane.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ResizablePlane.cpp"
 				>
 			</File>
 			<File
@@ -396,6 +404,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ResizablePlane.h"
+				>
+			</File>
+			<File
 				RelativePath=".\Tile.h"
 				>
 			</File>
@@ -424,10 +436,18 @@
 				</File>
 			</Filter>
 			<Filter
-				Name="Levels"
+				Name="Maps"
 				>
 				<File
 					RelativePath=".\Level1.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Levels"
+				>
+				<File
+					RelativePath=".\garbageLevel.h"
 					>
 				</File>
 			</Filter>

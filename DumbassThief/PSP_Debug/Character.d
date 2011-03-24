@@ -7,6 +7,6 @@ PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/D
 PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.h"
 PSP_Debug/Character.obj: "C:/Program Files/SN Systems/PSP/bin/.././include/_ansi.h"
 PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.h"
-PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.h"
-PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.h"
+PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/menu.h"
+PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.h"
 PSP_Debug/Character.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Level1.h"

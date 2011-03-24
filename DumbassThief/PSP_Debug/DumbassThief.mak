@@ -67,9 +67,11 @@ OBJS=\
 	"PSP_Debug/GameEngine.obj"\
 	"PSP_Debug/GameGroup.obj"\
 	"PSP_Debug/GameState.obj"\
+	"PSP_Debug/garbageLevel.obj"\
 	"PSP_Debug/main.obj"\
 	"PSP_Debug/MenuState.obj"\
 	"PSP_Debug/Plane.obj"\
+	"PSP_Debug/ResizablePlane.obj"\
 	"PSP_Debug/Tile.obj"\
 	"PSP_Debug/Tilemap.obj"\
 
@@ -97,6 +99,10 @@ COMPILE: $(OBJS)
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.cpp" -o $@
 
+"PSP_Debug/garbageLevel.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/garbageLevel.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/garbageLevel.cpp" -o $@
+
 "PSP_Debug/main.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/main.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/main.cpp" -o $@
@@ -108,6 +114,10 @@ COMPILE: $(OBJS)
 "PSP_Debug/Plane.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp" -o $@
+
+"PSP_Debug/ResizablePlane.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.cpp" -o $@
 
 "PSP_Debug/Tile.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.cpp"

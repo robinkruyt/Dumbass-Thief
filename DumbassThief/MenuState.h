@@ -9,18 +9,16 @@
 #include <libgu.h>
 #include <libgum.h>
 
-#include "Character.h"
-#include "Tilemap.h"
+#include "menu.h"
+#include "ResizablePlane.h"
+
 
 class MenuState : public GameState {
 public:
-	
-	Tilemap tilemap;
+	ResizablePlane background;
 
 	MenuState(void);
 	virtual ~MenuState(void);
-	
-	Character speler;
 	
 	void update();
 	void draw();

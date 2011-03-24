@@ -31,7 +31,6 @@ public:
 	void init();
 	void update();
 	void draw();
-	//void setGamestate(MenuState gs);
 	
 	//Besta ik al? dan ben ik mezelf. Anders maken we een nieuwe.
 	static GameEngine *instance()

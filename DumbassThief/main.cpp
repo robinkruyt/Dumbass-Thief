@@ -8,7 +8,6 @@ PSP(TM) Programmer Tool Runtime Library Release 6.2.0
 #include <libgum.h>
 
 #include "GameEngine.h"
-#include "MenuState.h"
 #include "GameState.h"
 
 SCE_MODULE_INFO( DumbassThief, 0, 1, 0 );

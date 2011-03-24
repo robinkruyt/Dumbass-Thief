@@ -1,19 +1,25 @@
 #include "MenuState.h"
+#include "GameEngine.h"
 
+#include "garbageLevel.h"
 
+GameEngine *GameEngine::s_instance = 0;
+garbageLevel garbageLvl;
 MenuState::MenuState(void){
-	speler.position.x = 4;
-	speler.position.y = 2;
-	defaultGroup.add(&speler);
+	
 }
 
 MenuState::~MenuState(void){ }
 
 void MenuState::update() {
-	defaultGroup.update();
+	background.update();
+	//GameEngine::instance()->controls[5]
+	if (true) {
+		GameEngine::instance()->setGamestate(garbageLvl);
+	}
 }
 void MenuState::draw() {
-	tilemap.draw();
-	defaultGroup.draw();
+	sceGuTexImage(0, 960, 480, 480, pix_menu);
+	background.draw();
 } 
 
