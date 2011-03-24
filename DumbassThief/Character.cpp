@@ -5,7 +5,7 @@
 #include "Level1.h"
 
 
-Character::Character(void) { accl = 0.005f; topspeed = 0.02f; }
+Character::Character(void) { accl = 0.05f; topspeed = 0.2f; }
 Character::~Character(void) { }
 
 GameEngine *GameEngine::s_instance = 0;
@@ -23,10 +23,10 @@ void Character::update() {
 		}
 	}
 	    
-	if (GameEngine::instance()->controls[2]) {
+	if (GameEngine::instance()->controls[5]) {
 		if(speed.y == 0)
 		{
-			speed.y = -accl*2;
+			speed.y = -accl*6;
 		}
 	}
 
@@ -42,7 +42,7 @@ void Character::update() {
 	y1 = (int)(position.y + 1); // WHERE ARE MY FEET?
 
 	bool touchfloor = false;
-	if (level_one[x1+(y1*level_size[0])] == 1 || level_one[x2+(y1*level_size[0])] == 1) { // Checking it twice. We dont want to miss this.
+	if (level_one[x1+(y1*level_size[0])] >= collisionIndex || level_one[x2+(y1*level_size[0])] >= collisionIndex) { // Checking it twice. We dont want to miss this.
 		touchfloor = true;
 	}
 		
@@ -54,20 +54,20 @@ void Character::update() {
 			if (speed.x < 0) { speed.x += accl/5; }
 
 	} else {
-			speed.y += accl; // GRAVITY 
+			speed.y += accl/2; // GRAVITY 
 	}
 
 	y1 = (int)(position.y); // Where's mah head at?
 
 	bool touchroof = false;
 	
-	if (level_one[x1+(y1*level_size[0])] == 1 || level_one[x2+(y1*level_size[0])] == 1) {
+	if (level_one[x1+(y1*level_size[0])] >= collisionIndex || level_one[x2+(y1*level_size[0])] >= collisionIndex) {
 		touchroof = true;
 	}
 
 	if (touchroof) {
 		position.y = (int)(y1 + 1);
-		speed.y = 1;
+		speed.y = 0.001;
 	}
 
 	// Lets get horizontal.
@@ -77,7 +77,7 @@ void Character::update() {
 	y2 = (int)(position.y + 0.8f);
 
 	bool touchright = false;
-	if (level_one[x1+(y1*level_size[0])] == 1 || level_one[x1+(y2*level_size[0])] == 1) {
+	if (level_one[x1+(y1*level_size[0])] >= collisionIndex || level_one[x1+(y2*level_size[0])] >= collisionIndex) {
 		touchright = true;
 	}
 
@@ -86,10 +86,10 @@ void Character::update() {
 		speed.x = 0;
 	}
 
-	x1 = (int)(position.x-0.5f);
+	x1 = (int)(position.x);
 
 	bool touchleft = false;
-	if (level_one[x1+(y1*level_size[0])] == 1 || level_one[x1+(y2*level_size[0])] == 1) {
+	if (level_one[x1+(y1*level_size[0])] >= collisionIndex || level_one[x1+(y2*level_size[0])] >= collisionIndex) {
 		touchleft = true;
 	}
 

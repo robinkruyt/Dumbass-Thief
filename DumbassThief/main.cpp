@@ -59,8 +59,14 @@ static int pad_read(void)
 	}else{
 		GameEngine::instance()->controls[1] = 0;
 	}
-	/*if (pad.Buttons & SCE_CTRL_CROSS) printf("You pressed cross\n");
-	if (pad.Buttons & SCE_CTRL_CIRCLE) printf("You pressed circle\n");
+
+	if (pad.Buttons & SCE_CTRL_CROSS) {
+		GameEngine::instance()->controls[5] = 1;
+	}else{
+		GameEngine::instance()->controls[5] = 0;
+	}
+
+	/*if (pad.Buttons & SCE_CTRL_CIRCLE) printf("You pressed circle\n");
 	if (pad.Buttons & SCE_CTRL_SQUARE) printf("You pressed square\n");
 	if (pad.Buttons & SCE_CTRL_TRIANGLE) printf("You pressed triangle\n");*/
 	if (pad.Buttons & SCE_CTRL_START) return 0;

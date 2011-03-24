@@ -396,10 +396,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\tex_pf8888.h"
-				>
-			</File>
-			<File
 				RelativePath=".\Tile.h"
 				>
 			</File>
@@ -411,7 +407,19 @@
 				Name="Textures"
 				>
 				<File
+					RelativePath=".\floorTile.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\..\..\..\usr\local\psp\devkit\tool\imgconv\menu.h"
+					>
+				</File>
+				<File
 					RelativePath=".\Thief.h"
+					>
+				</File>
+				<File
+					RelativePath=".\wallTile.h"
 					>
 				</File>
 			</Filter>
