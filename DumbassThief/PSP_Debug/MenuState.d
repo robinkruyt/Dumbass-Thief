@@ -13,3 +13,6 @@ PSP_Debug/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/D
 PSP_Debug/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.h"
 PSP_Debug/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.h"
 PSP_Debug/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Level1.h"
+PSP_Debug/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/EnemySpawner.h"
+PSP_Debug/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.h"
+PSP_Debug/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/tex_Granny.h"

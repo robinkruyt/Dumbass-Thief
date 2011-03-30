@@ -110,8 +110,8 @@ void GameEngine::init() {
 
 
 
-	cameraPosition.x= 0.0f;
-	cameraPosition.y= 0.0f;
+	cameraPosition.x= -3.0f;
+	cameraPosition.y= 3.0f;
 	cameraPosition.z= -15.0f;
 }
 

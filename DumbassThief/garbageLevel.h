@@ -11,11 +11,15 @@
 
 #include "Character.h"
 #include "Tilemap.h"
+#include "EnemySpawner.h"
+
 
 class garbageLevel : public GameState {
 public:
 	Tilemap tilemap;
 	Character speler;
+
+	EnemySpawner oldLadySpawn;
 
 	garbageLevel(void);
 	virtual ~garbageLevel(void);

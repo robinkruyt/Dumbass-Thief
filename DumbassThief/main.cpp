@@ -1,6 +1,3 @@
-/* SCE CONFIDENTIAL
-PSP(TM) Programmer Tool Runtime Library Release 6.2.0
-*/
 #include <kernel.h>
 #include <displaysvc.h>
 #include <ctrlsvc.h>

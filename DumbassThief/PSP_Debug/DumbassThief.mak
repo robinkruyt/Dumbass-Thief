@@ -74,6 +74,8 @@ OBJS=\
 	"PSP_Debug/ResizablePlane.obj"\
 	"PSP_Debug/Tile.obj"\
 	"PSP_Debug/Tilemap.obj"\
+	"PSP_Debug/EnemySpawner.obj"\
+	"PSP_Debug/Enemy.obj"\
 
 CST_OBJS=\
 
@@ -126,6 +128,14 @@ COMPILE: $(OBJS)
 "PSP_Debug/Tilemap.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.cpp" -o $@
+
+"PSP_Debug/EnemySpawner.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/EnemySpawner.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/EnemySpawner.cpp" -o $@
+
+"PSP_Debug/Enemy.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.cpp" -o $@
 
 LINK: "PSP_Debug/tempprx.obj"
 

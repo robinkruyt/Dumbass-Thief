@@ -24,6 +24,8 @@ Tilemap::~Tilemap()
 }
 
 void Tilemap::draw() {
+	//textures[tiles[i]->type]
+
 	for(unsigned int i = 0; i < tiles.size(); i++)
 	{
 		if(tiles[i]->type == 1) {
