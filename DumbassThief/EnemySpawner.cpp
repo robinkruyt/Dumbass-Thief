@@ -8,7 +8,7 @@ void EnemySpawner::set(ScePspFVector3 _spawnLoc, int _amount, int _type)
 {
 	for(int i = 0; i < _amount; i++) {
 		enemies.add(new Enemy(_spawnLoc,1));
-		_spawnLoc.x += i; // Tijdelijk.
+		_spawnLoc.x += 1; // Tijdelijk.
 	}
 }
 

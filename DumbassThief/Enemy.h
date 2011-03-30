@@ -11,6 +11,8 @@
 #include "Plane.h"
 #include "tex_Granny.h"
 
+#include "Level1.h" // VERHUIS DIT.
+
 class Enemy : public Plane {
 public:
 	Enemy();
@@ -19,6 +21,10 @@ public:
 
 	void update();
 	void draw();
+
+private:
+	float topspeed;
+	float accl;
 
 };
 

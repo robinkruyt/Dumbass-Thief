@@ -3,5 +3,6 @@ PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Project
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/tex_Granny.h"
+PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Level1.h"
 PSP_Debug/EnemySpawner.obj: "C:/Program Files/SN Systems/PSP/bin/.././include/_ansi.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.h"
