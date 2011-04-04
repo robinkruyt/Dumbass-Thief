@@ -7,14 +7,12 @@ garbageLevel::garbageLevel(void) {
 	spawnLoc.y = 2;
 	spawnLoc.z = 0;
 	
-	oldLadySpawn.set(spawnLoc,3,1);
+	oldLadySpawn.set(spawnLoc,3,1, speler);
 
 	speler.position.x = 4;
 	speler.position.y = 2;
 	defaultGroup.add(&speler);
 }
-
-
 
 garbageLevel::~garbageLevel(void) { }
 

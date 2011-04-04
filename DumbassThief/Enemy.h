@@ -13,10 +13,13 @@
 
 #include "Level1.h" // VERHUIS DIT.
 
+#include "GameEngine.h"
+#include "Character.h"
+
 class Enemy : public Plane {
 public:
 	Enemy();
-	Enemy(ScePspFVector3 _spawnLoc, int type);
+	Enemy(ScePspFVector3 _spawnLoc, int type, Character _player);
 	virtual ~Enemy(void);
 
 	void update();
@@ -25,6 +28,7 @@ public:
 private:
 	float topspeed;
 	float accl;
+	Character player;
 
 };
 

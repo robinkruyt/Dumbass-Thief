@@ -1,8 +1,11 @@
 #include "Enemy.h"
 
+GameEngine *GameEngine::s_instance = 0;
 Enemy::Enemy() {};
 
-Enemy::Enemy(ScePspFVector3 _spawnLoc, int type){
+Enemy::Enemy(ScePspFVector3 _spawnLoc, int type, Character _player){
+	player = &_player;
+
 	position.x = _spawnLoc.x;
 	position.y = _spawnLoc.y;
 
@@ -13,6 +16,7 @@ Enemy::Enemy(ScePspFVector3 _spawnLoc, int type){
 Enemy::~Enemy() {}
 
 void Enemy::update() {
+	position = player.position;
 	// Check distance to player
 		//To far
 			//Welke node is de player het dichst bij?

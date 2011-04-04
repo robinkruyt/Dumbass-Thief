@@ -115,11 +115,11 @@ void GameEngine::init() {
 	cameraPosition.z= -15.0f;
 }
 
-/*
-GameState GameEngine::getGamestate() {
+
+/*GameState GameEngine::getGamestate() {
 	return currentState;
-}
-*/
+}*/
+
 void GameEngine::setGamestate(GameState &gm) {
 	currentState = &gm;
 }

@@ -14,6 +14,7 @@
 #include "GameGroup.h"
 
 #include "Enemy.h"
+#include "Character.h"
 
 class EnemySpawner {
 public:
@@ -24,7 +25,7 @@ public:
 	EnemySpawner();
 	virtual ~EnemySpawner();
 	
-	void set(ScePspFVector3 _spawnLoc, int _amount, int _type);
+	void set(ScePspFVector3 _spawnLoc, int _amount, int _type, Character _player);
 
 	void update();
 	void draw();

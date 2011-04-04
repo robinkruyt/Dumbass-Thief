@@ -12,3 +12,7 @@ PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Project
 PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/EnemySpawner.h"
 PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.h"
 PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/tex_Granny.h"
+PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameEngine.h"
+PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.h"
+PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/menu.h"
+PSP_Debug/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.h"
