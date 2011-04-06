@@ -7,7 +7,6 @@ PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Project
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameEngine.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.h"
-PSP_Debug/EnemySpawner.obj: "C:/Program Files/SN Systems/PSP/bin/.././include/_ansi.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/menu.h"
 PSP_Debug/EnemySpawner.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.h"

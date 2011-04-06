@@ -3,7 +3,7 @@
 GameEngine *GameEngine::s_instance = 0;
 Enemy::Enemy() {};
 
-Enemy::Enemy(ScePspFVector3 _spawnLoc, int type, Character _player){
+Enemy::Enemy(ScePspFVector3 _spawnLoc, int type, Character &_player){
 	player = &_player;
 
 	position.x = _spawnLoc.x;
@@ -15,21 +15,52 @@ Enemy::Enemy(ScePspFVector3 _spawnLoc, int type, Character _player){
 
 Enemy::~Enemy() {}
 
+float Enemy::distance(ScePspFVector3 one, ScePspFVector3 two) {
+	return sqrt(pow(two.x - one.x,2)+pow(two.y - one.y,2));
+}
+
 void Enemy::update() {
-	position = player.position;
-	// Check distance to player
+	//position = player->position;
+	
+	if(distance(position, player->position) < 20) {
+		if(position.x < player->position.x) {
+			controls[0] = 0;
+			controls[2] = 1;
+		}else{
+			controls[0] = 1;
+			controls[2] = 0;
+		}
+		
+	}else{
 		//To far
 			//Welke node is de player het dichst bij?
 			//Welke node is the enemy closest to?
 			//Traverse playernode till you reach enemy node
-
-		//Close enough (yplayer == yenemy) && (verschil in x is <5 units)
-			//Run to player
+	}
 
 	// IF map[x richting][y-1] == niks || map[x richting][y||y+1] == iets.
 		//Spring
 
+	
 	// MOVEMENT
+	if (controls[0]) {
+		if (speed.x > -0.2f) {
+		    speed.x -= 0.05f;
+		}
+    }
+	if (controls[2]) {
+		if (speed.x < 0.2f) {
+			speed.x += 0.05f;
+		}
+	}   
+	if (controls[1]) {
+		if(speed.y == 0)
+		{
+			speed.y = -0.05f*6;
+		}
+	}	
+
+
 	int x1,x2,y1,y2;
   	
 	// Lets get vertical
@@ -95,6 +126,7 @@ void Enemy::update() {
 		position.x = (x1 + 1);
 		speed.x = 0;
 	}
+	
 
 	Plane::update();
 }
