@@ -74,8 +74,9 @@ OBJS=\
 	"PSP_Debug/ResizablePlane.obj"\
 	"PSP_Debug/Tile.obj"\
 	"PSP_Debug/Tilemap.obj"\
-	"PSP_Debug/EnemySpawner.obj"\
 	"PSP_Debug/Enemy.obj"\
+	"PSP_Debug/EnemySpawner.obj"\
+	"PSP_Debug/StartMenu.obj"\
 
 CST_OBJS=\
 
@@ -86,56 +87,60 @@ CUSTOM: $(CST_OUTS) $(CST_OBJS)
 COMPILE: $(OBJS)
 
 "PSP_Debug/Character.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Character.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Character.cpp" -o $@
 
 "PSP_Debug/GameEngine.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameEngine.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameEngine.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/GameEngine.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/GameEngine.cpp" -o $@
 
 "PSP_Debug/GameGroup.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/GameGroup.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/GameGroup.cpp" -o $@
 
 "PSP_Debug/GameState.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/GameState.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/GameState.cpp" -o $@
 
 "PSP_Debug/garbageLevel.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/garbageLevel.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/garbageLevel.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/garbageLevel.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/garbageLevel.cpp" -o $@
 
 "PSP_Debug/main.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/main.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/main.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/main.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/main.cpp" -o $@
 
 "PSP_Debug/MenuState.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/MenuState.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/MenuState.cpp" -o $@
 
 "PSP_Debug/Plane.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Plane.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Plane.cpp" -o $@
 
 "PSP_Debug/ResizablePlane.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/ResizablePlane.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/ResizablePlane.cpp" -o $@
 
 "PSP_Debug/Tile.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Tile.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Tile.cpp" -o $@
 
 "PSP_Debug/Tilemap.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.cpp" -o $@
-
-"PSP_Debug/EnemySpawner.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/EnemySpawner.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/EnemySpawner.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Tilemap.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Tilemap.cpp" -o $@
 
 "PSP_Debug/Enemy.obj":
-	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.cpp"
-	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.cpp" -o $@
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Enemy.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Enemy.cpp" -o $@
+
+"PSP_Debug/EnemySpawner.obj":
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/EnemySpawner.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/EnemySpawner.cpp" -o $@
+
+"PSP_Debug/StartMenu.obj":
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/StartMenu.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/StartMenu.cpp" -o $@
 
 LINK: "PSP_Debug/tempprx.obj"
 

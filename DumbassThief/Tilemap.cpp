@@ -1,22 +1,6 @@
 #include "Tilemap.h"
 
-
-#include "wallTile.h"
-#include "floorTile.h"
-
 //Textures
-#include "House_Door.h"
-#include "House_DoorTop.h"
-#include "House_Left.h"
-#include "House_LeftTop.h"
-#include "House_Right.h"
-#include "House_RightTop.h"
-#include "House_Top.h"
-#include "House_Wall.h"
-#include "House_Window.h"
-#include "Street.h"
-
-//#include "Plane.h"
 
 Tilemap::Tilemap()
 {
@@ -52,9 +36,11 @@ void Tilemap::draw() {
 		}
 	}*/
 
-	for(unsigned int i = 0; i < tiles.size(); i++)
+	for(unsigned int i = 1; i < tiles.size(); i++)
 	{
-		switch(tiles[i]->type) {
+		sceGuTexImage(0, 128, 128, 128, textures[i]);
+		tiles[i]->draw();
+		/*switch(tiles[i]->type) {
 			case 1: {
 				sceGuTexImage(0, 128, 128, 128, pix_House_Door);
 				tiles[i]->draw();
@@ -95,7 +81,7 @@ void Tilemap::draw() {
 				sceGuTexImage(0, 128, 128, 128, pix_Street);
 				tiles[i]->draw();
 			}break;
-		}
+		}*/
 	}
 }
 

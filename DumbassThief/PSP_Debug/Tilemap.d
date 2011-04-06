@@ -1,18 +1,20 @@
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.cpp"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tilemap.h"
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Tilemap.cpp
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Tilemap.h
 PSP_Debug/Tilemap.obj: "C:/Program Files/SN Systems/PSP/bin/.././include/_ansi.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Tile.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Level1.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/wallTile.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/floorTile.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_Door.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_DoorTop.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_Left.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_LeftTop.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_Right.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_RightTop.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_Top.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_Wall.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/House_Window.h"
-PSP_Debug/Tilemap.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Street.h"
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Tile.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Plane.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Level1.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Street.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Ground.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_Door.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_DoorTop.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_Left.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_LeftTop.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_Right.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_RightTop.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_Top.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_Wall.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/House_Window.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Pipe_Top.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Pipe_Bottom.h
+PSP_Debug/Tilemap.obj: z:/Buildouts/DumbassThief/DumbassThief/Sign_Escape.h
