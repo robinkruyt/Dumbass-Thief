@@ -25,7 +25,7 @@ public:
 	EnemySpawner();
 	virtual ~EnemySpawner();
 	
-	void set(ScePspFVector3 _spawnLoc, int _amount, int _type, Character _player);
+	void set(ScePspFVector3 _spawnLoc, int _amount, int _type, Character &_player);
 
 	void update();
 	void draw();

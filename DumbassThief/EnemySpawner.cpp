@@ -4,7 +4,7 @@ EnemySpawner::EnemySpawner() { }
 
 EnemySpawner::~EnemySpawner(){}
 
-void EnemySpawner::set(ScePspFVector3 _spawnLoc, int _amount, int _type, Character _player)
+void EnemySpawner::set(ScePspFVector3 _spawnLoc, int _amount, int _type, Character &_player)
 {
 	for(int i = 0; i < _amount; i++) {
 		enemies.add(new Enemy(_spawnLoc,1, _player));
