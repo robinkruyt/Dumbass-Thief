@@ -22,66 +22,15 @@ Tilemap::~Tilemap()
 }
 
 void Tilemap::draw() {
-	//textures[tiles[i]->type]
-	
-	/* DEBUG
+
 	for(unsigned int i = 0; i < tiles.size(); i++)
 	{
-		if(tiles[i]->type == 1) {
-			sceGuTexImage(0, 128, 128, 128, pix_floorTile);
+		printf("Tile : %i. Type: %i\n" , i, tiles[i]->type);
+		if(tiles[i]->type > 0){
+			sceGuTexImage(0, 128, 128, 128, textures[tiles[i]->type-1]);
 			tiles[i]->draw();
-		}else if(tiles[i]->type == 2) {
-			sceGuTexImage(0, 128, 128, 128, pix_wallTile);
-			tiles[i]->draw();
+				printf("draw");
 		}
-	}*/
-
-	for(unsigned int i = 1; i < tiles.size(); i++)
-	{
-		sceGuTexImage(0, 128, 128, 128, textures[i]);
-		tiles[i]->draw();
-		/*switch(tiles[i]->type) {
-			case 1: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_Door);
-				tiles[i]->draw();
-			}break;
-			case 2: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_DoorTop);
-				tiles[i]->draw();
-			}break;
-			case 3: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_Left);
-				tiles[i]->draw();
-			}break;
-			case 4: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_LeftTop);
-				tiles[i]->draw();
-			}break;
-			case 5: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_Right);
-				tiles[i]->draw();
-			}break;
-			case 6: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_RightTop);
-				tiles[i]->draw();
-			}break;
-			case 7: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_Top);
-				tiles[i]->draw();
-			}break;
-			case 8: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_Wall);
-				tiles[i]->draw();
-			}break;
-			case 9: {
-				sceGuTexImage(0, 128, 128, 128, pix_House_Window);
-				tiles[i]->draw();
-			}break;
-			case 10: {
-				sceGuTexImage(0, 128, 128, 128, pix_Street);
-				tiles[i]->draw();
-			}break;
-		}*/
 	}
 }
 

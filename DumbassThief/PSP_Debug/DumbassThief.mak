@@ -64,6 +64,8 @@ LD_FLAGS=\
 
 OBJS=\
 	"PSP_Debug/Character.obj"\
+	"PSP_Debug/Enemy.obj"\
+	"PSP_Debug/EnemySpawner.obj"\
 	"PSP_Debug/GameEngine.obj"\
 	"PSP_Debug/GameGroup.obj"\
 	"PSP_Debug/GameState.obj"\
@@ -72,11 +74,9 @@ OBJS=\
 	"PSP_Debug/MenuState.obj"\
 	"PSP_Debug/Plane.obj"\
 	"PSP_Debug/ResizablePlane.obj"\
+	"PSP_Debug/StartMenu.obj"\
 	"PSP_Debug/Tile.obj"\
 	"PSP_Debug/Tilemap.obj"\
-	"PSP_Debug/Enemy.obj"\
-	"PSP_Debug/EnemySpawner.obj"\
-	"PSP_Debug/StartMenu.obj"\
 
 CST_OBJS=\
 
@@ -89,6 +89,14 @@ COMPILE: $(OBJS)
 "PSP_Debug/Character.obj":
 	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Character.cpp"
 	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Character.cpp" -o $@
+
+"PSP_Debug/Enemy.obj":
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Enemy.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Enemy.cpp" -o $@
+
+"PSP_Debug/EnemySpawner.obj":
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/EnemySpawner.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/EnemySpawner.cpp" -o $@
 
 "PSP_Debug/GameEngine.obj":
 	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/GameEngine.cpp"
@@ -122,6 +130,10 @@ COMPILE: $(OBJS)
 	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/ResizablePlane.cpp"
 	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/ResizablePlane.cpp" -o $@
 
+"PSP_Debug/StartMenu.obj":
+	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/StartMenu.cpp"
+	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/StartMenu.cpp" -o $@
+
 "PSP_Debug/Tile.obj":
 	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Tile.cpp"
 	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Tile.cpp" -o $@
@@ -129,18 +141,6 @@ COMPILE: $(OBJS)
 "PSP_Debug/Tilemap.obj":
 	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Tilemap.cpp"
 	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Tilemap.cpp" -o $@
-
-"PSP_Debug/Enemy.obj":
-	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/Enemy.cpp"
-	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/Enemy.cpp" -o $@
-
-"PSP_Debug/EnemySpawner.obj":
-	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/EnemySpawner.cpp"
-	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/EnemySpawner.cpp" -o $@
-
-"PSP_Debug/StartMenu.obj":
-	@echo ProDG Compiling "z:/Buildouts/DumbassThief/DumbassThief/StartMenu.cpp"
-	$(CXX) $(CXX_FLAGS) "z:/Buildouts/DumbassThief/DumbassThief/StartMenu.cpp" -o $@
 
 LINK: "PSP_Debug/tempprx.obj"
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="8,00"
 	Name="DumbassThief"
 	ProjectGUID="{F3E095BE-75E1-4BED-84C1-749A2A2E0C1A}"
 	RootNamespace="DumbassThief"
@@ -335,6 +335,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Enemy.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\EnemySpawner.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\GameEngine.cpp"
 				>
 			</File>
@@ -367,6 +375,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\StartMenu.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Tile.cpp"
 				>
 			</File>
@@ -384,6 +396,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Enemy.h"
+				>
+			</File>
+			<File
+				RelativePath=".\EnemySpawner.h"
+				>
+			</File>
+			<File
 				RelativePath=".\GameEngine.h"
 				>
 			</File>
@@ -396,7 +416,55 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Ground.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_Door.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_DoorTop.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_Left.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_LeftTop.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_Right.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_RightTop.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_Top.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_Wall.h"
+				>
+			</File>
+			<File
+				RelativePath=".\House_Window.h"
+				>
+			</File>
+			<File
 				RelativePath=".\MenuState.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Pipe_Bottom.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Pipe_Top.h"
 				>
 			</File>
 			<File
@@ -405,6 +473,18 @@
 			</File>
 			<File
 				RelativePath=".\ResizablePlane.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Sign_Escape.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Street.h"
+				>
+			</File>
+			<File
+				RelativePath=".\tex_Granny.h"
 				>
 			</File>
 			<File
@@ -453,11 +533,19 @@
 			</Filter>
 		</Filter>
 		<File
+			RelativePath=".\emulator.log"
+			>
+		</File>
+		<File
 			RelativePath=".\PrxPreloads.txt"
 			>
 		</File>
 		<File
 			RelativePath=".\ReadMe_GP.txt"
+			>
+		</File>
+		<File
+			RelativePath=".\settings.xml"
 			>
 		</File>
 		<File
