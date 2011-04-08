@@ -5,6 +5,7 @@ Enemy::Enemy() {};
 
 Enemy::Enemy(ScePspFVector3 _spawnLoc, int type, Character &_player){
 	player = &_player;
+	//map = &_map;
 
 	position.x = _spawnLoc.x;
 	position.y = _spawnLoc.y;
@@ -40,7 +41,7 @@ void Enemy::update() {
 
 	// IF map[x richting][y-1] == niks || map[x richting][y||y+1] == iets.
 		//Spring
-
+	
 	
 	// MOVEMENT
 	if (controls[0]) {
