@@ -1,5 +1,5 @@
-PSP_Debug/GameState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.cpp"
-PSP_Debug/GameState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameState.h"
-PSP_Debug/GameState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/GameGroup.h"
+PSP_Debug/GameState.obj: z:/Buildouts/DumbassThief/DumbassThief/GameState.cpp
+PSP_Debug/GameState.obj: z:/Buildouts/DumbassThief/DumbassThief/GameState.h
+PSP_Debug/GameState.obj: z:/Buildouts/DumbassThief/DumbassThief/GameGroup.h
 PSP_Debug/GameState.obj: "C:/Program Files/SN Systems/PSP/bin/.././include/_ansi.h"
-PSP_Debug/GameState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.h"
+PSP_Debug/GameState.obj: z:/Buildouts/DumbassThief/DumbassThief/Plane.h
