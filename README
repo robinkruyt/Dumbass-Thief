@@ -3,10 +3,4 @@ Dumbass Thief
 PSP game where you flee from the hordes of people you stole from.
 Site: psp.robinkruyt.com
 
-TODO:
-- Menu
-- Verhuizen van Menu->Gamestate
-- Tiles
-- AI
-  - Pathfinding
-  - Statemachine
+Liteversion doet het over het netwerk. Maar beide versies zouden het moeten doen.
