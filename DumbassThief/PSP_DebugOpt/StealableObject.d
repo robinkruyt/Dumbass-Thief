@@ -1,0 +1,6 @@
+PSP_DebugOpt/StealableObject.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StealableObject.cpp"
+PSP_DebugOpt/StealableObject.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StealableObject.h"
+PSP_DebugOpt/StealableObject.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Plane.h"
+PSP_DebugOpt/StealableObject.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Character.h"
+PSP_DebugOpt/StealableObject.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Thief.h"
+PSP_DebugOpt/StealableObject.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/cat.h"

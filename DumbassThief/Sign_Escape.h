@@ -1,3 +1,6 @@
+#ifndef SIGN
+#define SIGN
+
 // 128 x 128 Dots
 unsigned int pix_Sign_Escape[16384] __attribute__((aligned(16))) = {
 0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,
@@ -2049,3 +2052,4 @@ unsigned int pix_Sign_Escape[16384] __attribute__((aligned(16))) = {
 0x00ff00ff,0xff363636,0xff363636,0xff33ccff,0xff33ccff,0xff363636,0xff363636,0x00ff00ff,
 0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,
 };
+#endif

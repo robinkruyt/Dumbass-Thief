@@ -1,3 +1,6 @@
+#ifndef HOUSERIGHT
+#define HOUSERIGHT
+
 // 128 x 128 Dots
 unsigned int pix_House_Right[16384] __attribute__((aligned(16))) = {
 0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,
@@ -2049,3 +2052,6 @@ unsigned int pix_House_Right[16384] __attribute__((aligned(16))) = {
 0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,
 0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xff363636,0xff363636,0xff363636,0xff363636,
 };
+
+
+#endif

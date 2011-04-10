@@ -77,6 +77,7 @@ OBJS=\
 	"PSP_DebugOpt/Enemy.obj"\
 	"PSP_DebugOpt/EnemySpawner.obj"\
 	"PSP_DebugOpt/StartMenu.obj"\
+	"PSP_DebugOpt/StealableObject.obj"\
 
 CST_OBJS=\
 
@@ -141,6 +142,10 @@ COMPILE: $(OBJS)
 "PSP_DebugOpt/StartMenu.obj":
 	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StartMenu.cpp"
 	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StartMenu.cpp" -o $@
+
+"PSP_DebugOpt/StealableObject.obj":
+	@echo ProDG Compiling "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StealableObject.cpp"
+	$(CXX) $(CXX_FLAGS) "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StealableObject.cpp" -o $@
 
 LINK: "PSP_DebugOpt/tempprx.obj"
 

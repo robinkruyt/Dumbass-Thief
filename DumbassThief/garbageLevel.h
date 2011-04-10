@@ -12,12 +12,14 @@
 #include "Character.h"
 #include "Tilemap.h"
 #include "EnemySpawner.h"
+#include "StealableObject.h"
 
 
 class garbageLevel : public GameState {
 public:
 	Tilemap tilemap;
 	Character speler;
+	StealableObject cat;
 
 	EnemySpawner oldLadySpawn;
 

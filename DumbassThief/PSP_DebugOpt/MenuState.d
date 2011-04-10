@@ -31,3 +31,4 @@ PSP_DebugOpt/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Project
 PSP_DebugOpt/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/EnemySpawner.h"
 PSP_DebugOpt/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/Enemy.h"
 PSP_DebugOpt/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/tex_Granny.h"
+PSP_DebugOpt/MenuState.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StealableObject.h"

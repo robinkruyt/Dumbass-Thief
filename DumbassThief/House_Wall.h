@@ -1,3 +1,6 @@
+#ifndef HOUSEWALL
+#define HOUSEWALL
+
 // 128 x 128 Dots
 unsigned int pix_House_Wall[16384] __attribute__((aligned(16))) = {
 0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,
@@ -2049,3 +2052,5 @@ unsigned int pix_House_Wall[16384] __attribute__((aligned(16))) = {
 0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,
 0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,
 };
+
+#endif

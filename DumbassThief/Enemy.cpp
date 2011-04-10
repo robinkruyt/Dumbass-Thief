@@ -5,7 +5,6 @@ Enemy::Enemy() {};
 
 Enemy::Enemy(ScePspFVector3 _spawnLoc, int type, Character &_player){
 	player = &_player;
-	//map = &_map;
 
 	position.x = _spawnLoc.x;
 	position.y = _spawnLoc.y;

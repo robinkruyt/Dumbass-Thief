@@ -1,3 +1,6 @@
+#ifndef HOUSELEFT
+#define HOUSELEFT
+
 // 128 x 128 Dots
 unsigned int pix_House_Left[16384] __attribute__((aligned(16))) = {
 0xff363636,0xff363636,0xff363636,0xff363636,0xffcccccc,0xffcccccc,0xffcccccc,0xffcccccc,
@@ -2049,3 +2052,5 @@ unsigned int pix_House_Left[16384] __attribute__((aligned(16))) = {
 0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,
 0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,0xff003399,
 };
+
+#endif

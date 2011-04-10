@@ -31,3 +31,4 @@ PSP_DebugOpt/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Proj
 PSP_DebugOpt/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/MenuState.h"
 PSP_DebugOpt/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/menu.h"
 PSP_DebugOpt/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/ResizablePlane.h"
+PSP_DebugOpt/garbageLevel.obj: "c:/Users/Robin/Documents/Visual Studio 2005/Projects/DumbassThief/DumbassThief/StealableObject.h"

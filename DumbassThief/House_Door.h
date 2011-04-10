@@ -1,3 +1,6 @@
+#ifndef HOUSEDOOR
+#define HOUSEDOOR
+
 // 128 x 128 Dots
 unsigned int pix_House_Door[16384] __attribute__((aligned(16))) = {
 0xff363636,0xff363636,0xff363636,0xff363636,0xff003366,0xff003366,0xff003366,0xff003366,
@@ -2049,3 +2052,5 @@ unsigned int pix_House_Door[16384] __attribute__((aligned(16))) = {
 0xff003366,0xff003366,0xff003366,0xff003366,0xff003366,0xff003366,0xff003366,0xff003366,
 0xff003366,0xff003366,0xff003366,0xff003366,0xff363636,0xff363636,0xff363636,0xff363636,
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef CAT
+#define CAT
+
 // 128 x 128 Dots
 unsigned int pix_cat[16384] __attribute__((aligned(16))) = {
 0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,
@@ -2049,3 +2052,5 @@ unsigned int pix_cat[16384] __attribute__((aligned(16))) = {
 0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,
 0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff,
 };
+
+#endif

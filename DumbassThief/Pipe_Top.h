@@ -1,3 +1,6 @@
+#ifndef PIPET
+#define PIPET
+
 // 128 x 128 Dots
 unsigned int pix_Pipe_Top[16384] __attribute__((aligned(16))) = {
 0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,
@@ -2049,3 +2052,5 @@ unsigned int pix_Pipe_Top[16384] __attribute__((aligned(16))) = {
 0xff009fbe,0xff009fbe,0xff009fbe,0xff009fbe,0xff363636,0xff363636,0xff363636,0xff363636,
 0xff363636,0xff363636,0xff363636,0xff363636,0xff666666,0xff666666,0xff666666,0xff666666,
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef GROUND
+#define GROUND
+
 // 128 x 128 Dots
 unsigned int pix_Ground[16384] __attribute__((aligned(16))) = {
 0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,
@@ -2049,3 +2052,5 @@ unsigned int pix_Ground[16384] __attribute__((aligned(16))) = {
 0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,
 0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,0xff666666,
 };
+
+#endif

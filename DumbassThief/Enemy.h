@@ -14,7 +14,7 @@
 #include "Plane.h"
 #include "tex_Granny.h"
 
-#include "Level1.h" // VERHUIS DIT.
+#include "Level1.h" 
 
 #include "GameEngine.h"
 #include "Character.h"

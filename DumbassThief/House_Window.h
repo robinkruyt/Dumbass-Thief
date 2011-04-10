@@ -1,3 +1,6 @@
+#ifndef HOUSEWINDOW
+#define HOUSEWINDOW
+
 // 128 x 128 Dots
 unsigned int pix_House_Window[16384] __attribute__((aligned(16))) = {
 0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,
@@ -2049,3 +2052,5 @@ unsigned int pix_House_Window[16384] __attribute__((aligned(16))) = {
 0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,
 0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,0xff363636,
 };
+
+#endif

@@ -11,7 +11,11 @@ garbageLevel::garbageLevel(void) {
 
 	speler.position.x = 4;
 	speler.position.y = 2;
+
+	cat.set(14,5,speler);
+
 	defaultGroup.add(&speler);
+	defaultGroup.add(&cat);
 }
 
 garbageLevel::~garbageLevel(void) { }
