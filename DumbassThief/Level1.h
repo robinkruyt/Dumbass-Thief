@@ -5,40 +5,26 @@
 //#include <map> 
 
 //Include all Textures
-#include "Street.h"
 #include "Ground.h"
-#include "House_Door.h"
-#include "House_DoorTop.h"
-#include "House_Left.h"
-#include "House_LeftTop.h"
-#include "House_Right.h"
-#include "House_RightTop.h"
-#include "House_Top.h"
-#include "House_Wall.h"
-#include "House_Window.h"
-#include "Pipe_Top.h"
-#include "Pipe_Bottom.h"
-#include "Sign_Escape.h"
 
 #include "cat.h"
 
-unsigned int * textures[14] = {
-	pix_House_LeftTop, pix_House_Top, pix_House_RightTop, pix_House_DoorTop, pix_Pipe_Top, pix_House_Window, pix_Sign_Escape,
-	pix_House_Left, pix_House_Wall, pix_House_Right, pix_House_Door, pix_Pipe_Bottom, pix_Street, pix_Ground
+unsigned int * textures[1] = {
+	pix_Ground
 };
 //int levelObjects[1] ={};
 
-int collisionIndex = 13;
+int collisionIndex = 1;
 
 unsigned int level_size[2] = {20,7};
 unsigned int level_one[20*7] = {
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,1,2,2,2,3,0,0,1,2,2,2,3,0,0,0,0,0,0,0,
-0,8,9,9,6,10,0,0,8,9,9,9,10,0,0,0,0,0,0,0,
-0,8,4,9,9,10,0,0,8,4,9,6,10,0,0,0,0,0,0,0,
-0,8,11,9,9,10,0,0,8,11,9,9,10,0,0,0,0,0,0,0,
-13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,
-14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 };
 
 /*
