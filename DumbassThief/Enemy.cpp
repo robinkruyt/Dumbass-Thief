@@ -9,8 +9,8 @@ Enemy::Enemy(ScePspFVector3 _spawnLoc, int type, Character &_player){
 	position.x = _spawnLoc.x;
 	position.y = _spawnLoc.y;
 
-	accl = 0.05f;
-	topspeed = 0.2f;
+	accl = 0.02f;
+	topspeed = 0.1f;
 }
 
 Enemy::~Enemy() {}
