@@ -25,11 +25,9 @@ void Tilemap::draw() {
 
 	for(unsigned int i = 0; i < tiles.size(); i++)
 	{
-		printf("Tile : %i. Type: %i\n" , i, tiles[i]->type);
 		if(tiles[i]->type > 0){
 			sceGuTexImage(0, 128, 128, 128, textures[tiles[i]->type-1]);
 			tiles[i]->draw();
-				printf("draw");
 		}
 	}
 }
