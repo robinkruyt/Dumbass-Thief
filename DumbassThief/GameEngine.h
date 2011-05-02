@@ -18,8 +18,6 @@ class GameEngine {
 	static GameEngine *s_instance;
 	GameState *currentState;
 
-	//GameEngine(GameState _gameState){ gameState = _gameState; } // voorbeeld init dat nog niet echt werkt...
-
 public:
 	// Vars
 	ScePspFVector3	cameraPosition;
@@ -32,7 +30,7 @@ public:
 	void update();
 	void draw();
 	
-	//Besta ik al? dan ben ik mezelf. Anders maken we een nieuwe.
+	//Besta ik al? dan ben ik mezelf. Anders maken we een nieuwe. Singleton
 	static GameEngine *instance()
     {
         if (!s_instance)

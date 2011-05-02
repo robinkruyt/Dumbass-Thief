@@ -61,21 +61,6 @@ void GameEngine::init() {
 	/* Clipping */
 	sceGuEnable(SCEGU_CLIP_PLANE);
 
-	// Niet nodig...
-	/*
-	sceGuLightColor(0, SCEGU_DIFFUSE, 0xffc0c0c0);
-	sceGuLightColor(0, SCEGU_SPECULAR, 0xffffffff);
-	
-	ScePspFVector3	vec;
-	vec.x=-1.0f;
-	vec.y= 1.0f;
-	vec.z= 1.0f;
-	sceGuLight(0, SCEGU_LIGHT_DIRECTION, SCEGU_DIFFUSE_AND_SPECULAR, &vec);
-	sceGuEnable(SCEGU_LIGHT0);
-	sceGuEnable(SCEGU_LIGHTING);
-
-	*/
-
 	sceGuAmbient(0xff808080);
 	sceGuColor(0xffffffff);
 	
@@ -85,7 +70,6 @@ void GameEngine::init() {
 	sceGumMatrixMode(SCEGU_MATRIX_PROJECTION);
 	sceGumLoadIdentity();
 	sceGumPerspective(SCEGU_RAD(45.0f), SCEGU_SCR_ASPECT, 1.000000f, 100.000000f);
-	//sceGumLookAt(&pos,&look,&tilt);
 
 	sceGumMatrixMode(SCEGU_MATRIX_WORLD); 
 	
@@ -116,10 +100,6 @@ void GameEngine::init() {
 }
 
 
-/*GameState GameEngine::getGamestate() {
-	return currentState;
-}*/
-
 void GameEngine::setGamestate(GameState &gm) {
 	currentState = &gm;
 }
@@ -148,8 +128,5 @@ void GameEngine::draw() {
 
 	sceGuFinish();
 	sceGuSync(SCEGU_SYNC_FINISH, SCEGU_SYNC_WAIT);
-	/*sceDisplayWaitVblankStart();
-	sceGuSwapBuffers();*/
-
 	
 }

@@ -1,8 +1,5 @@
 #include "Character.h"
 
-#include "GameEngine.h"
-#include "Level1.h" //VERHUIS DIT.
-
 
 Character::Character(void) { accl = 0.05f; topspeed = 0.2f; }
 Character::~Character(void) { }

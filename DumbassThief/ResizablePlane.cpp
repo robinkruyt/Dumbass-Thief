@@ -3,18 +3,9 @@
 
 ResizablePlane::ResizablePlane()
 {
-	/*float tmp[] = {
-		0.0f,	 1.0f,	 0.0f,	 0.0f,	 1.0f,	-1.0f,	-1.0f,	 0.0f,
-		0.0f,	 0.0f,	 0.0f,	 0.0f,	 1.0f,	-1.0f,	 1.0f,	 0.0f,
-		1.0f,	 1.0f,	 0.0f,	 0.0f,	 1.0f,	 1.0f,	-1.0f,	 0.0f,
-		1.0f,	 0.0f,	 0.0f,	 0.0f,	 1.0f,	 1.0f,	 1.0f,	 0.0f,
-	};*/
-
-	// 272	420
-	// 1	x
-
 	// Eerste 3 zijn x,y z van texture
 	// Volgende 2 hebben iets met de texture te maken
+	// Laatste 3 zijn locatie
 	float s = 3.2f;
 	float sx = 3.5f*s;
 	float sy = 2.0f*s;

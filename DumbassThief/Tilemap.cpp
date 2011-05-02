@@ -1,7 +1,5 @@
 #include "Tilemap.h"
 
-//Textures
-
 Tilemap::Tilemap()
 {
 	for(float x = 0; x < level_size[0]; x++) {

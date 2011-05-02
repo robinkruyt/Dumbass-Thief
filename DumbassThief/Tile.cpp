@@ -8,9 +8,7 @@ Tile::Tile(float x, float y, int Type) {
 	type = Type;
 }
 
-Tile::~Tile()
-{
-}
+Tile::~Tile() {}
 
 void Tile::draw() {
 	Plane::update(); // NAAR UPDATE VERHUIZEN.

@@ -26,7 +26,3 @@ void GameGroup::draw() {
 void GameGroup::add(Plane* member) {
 	members.push_back(member);
 }
-
-void GameGroup::remove(int index) {
-	//members[index].pop;
-}

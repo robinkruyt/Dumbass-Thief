@@ -19,9 +19,7 @@ float Enemy::distance(ScePspFVector3 one, ScePspFVector3 two) {
 	return sqrt(pow(two.x - one.x,2)+pow(two.y - one.y,2));
 }
 
-void Enemy::update() {
-	//position = player->position;
-	
+void Enemy::update() {	
 	if(distance(position, player->position) < 20) {
 		if(position.x < player->position.x) {
 			controls[0] = 0;

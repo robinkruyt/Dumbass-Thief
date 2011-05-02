@@ -17,7 +17,6 @@ public:
 	void draw();
 
 	void add(Plane* member);
-	void remove(int index);
 
 	// ADD, REPLACE, REMOVE(scrollfactor)
 };

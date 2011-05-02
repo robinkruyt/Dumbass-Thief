@@ -13,7 +13,6 @@ MenuState::~MenuState(void){ }
 
 void MenuState::update() {
 	background.update();
-	//GameEngine::instance()->controls[5]
 	if (GameEngine::instance()->controls[5]) {
 		GameEngine::instance()->setGamestate(garbageLvl);
 	}
